@@ -22,7 +22,7 @@ if (!empty($_POST['nombre']) && $_POST['nombre'] >= 0)
     For ($i="1" ; $i<=$zt_nombre ; $i++)
     {
         $Resultat = $Resultat * $i;
-            echo "<br>".$Resultat;
+        echo "<br>".$Resultat;
     }
 
 
