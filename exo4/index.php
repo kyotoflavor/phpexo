@@ -8,7 +8,7 @@
 <p>Ecrire un programme qui calcule la factorielle de n.</p>
 <br>
 <form action="" method="post">
-    Nombre: <input type="text" name="nombre"><br>
+    Nombre de Tour: <input type="text" name="nombre"><br>
     <input type="submit">
 </form>
 

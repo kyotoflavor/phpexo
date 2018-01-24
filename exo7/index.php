@@ -25,9 +25,11 @@ Ce formulaire appelle une page qui affichera « Bonjour monsieur Truc » ou « B
 </form>
 
 <?php
-if (isset($_POST['nom']))
+if (!empty($_POST['nom']))
 {
         echo "Bonjour, ".$_POST['sexe']." ".$_POST['nom'];
+        unset($_POST['sexe']);
+        unset($_POST['nom']);
 }
 ?>
 

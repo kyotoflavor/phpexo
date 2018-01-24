@@ -14,13 +14,13 @@ Le bouton submit de ce formulaire provoquera l'affichage d'une page qui saluera 
 
 <form action="" method="post">
     Prenom: <input type="text" name="prenom"><br>
-    Age: <input type="number" name="age"><br>
+    Age: <input type="text" name="age"><br>
     <input type="submit">
 </form>
 
 
 <?php
-if (isset($_POST['prenom']))
+if (isset($_POST['prenom']) && $_POST['age'])
 {
         echo "Bonjour ".$_POST['prenom']." ! vous avez ".$_POST['age']." ans...";
 }
