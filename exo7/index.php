@@ -11,6 +11,7 @@ Ce formulaire appelle une page qui affichera « Bonjour monsieur Truc » ou « B
 </p>
 <br>
 
+
 <form action="" method="post">
     Nom: <input type="text" name="nom"><br>
     <div>
@@ -23,8 +24,12 @@ Ce formulaire appelle une page qui affichera « Bonjour monsieur Truc » ou « B
     <input type="submit">
 </form>
 
-
-<p>Bonjour <?php echo $_POST['sexe']; ?> <?php echo $_POST['nom']; ?> ...</p>
+<?php
+if (isset($_POST['nom']))
+{
+        echo "Bonjour, ".$_POST['sexe']." ".$_POST['nom'];
+}
+?>
 
 </body>
 </html>

@@ -18,6 +18,14 @@ Le bouton submit de ce formulaire provoquera l'affichage d'une page qui saluera 
     <input type="submit">
 </form>
 
-<p>Bonjour : <?php echo $_POST['prenom']; ?> ! vous avez <?php echo $_POST['age']; ?> ans...</p>
+
+<?php
+if (isset($_POST['prenom']))
+{
+        echo "Bonjour ".$_POST['prenom']." ! vous avez ".$_POST['age']." ans...";
+}
+?>
+
+
 </body>
 </html>

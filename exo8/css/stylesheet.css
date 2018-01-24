@@ -1,0 +1,399 @@
+*{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+span{
+  font-family: 'Cutive Mono', monospace;
+}
+
+p{
+  font-family: 'Overpass Mono', monospace;
+}
+
+.body_bg_img{
+  background: url("../img/payments-banner-graphic.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.text-white{
+  color: white;
+  text-decoration: none;
+}
+
+.text_bold_black{
+  color: #4D4D4D;
+}
+
+.text-white a, .text-white a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.bg_blue{
+  background-color: #7CD5EF;
+  overflow: hidden;
+  padding:  0px;
+}
+
+.bg_violet{
+  background-color: #8080BE;
+  overflow: hidden;
+  padding:  0px;
+}
+
+.navbar i{
+  padding-top: 10px;
+  opacity: 0.5;
+}
+
+.navbar i:hover{
+  padding-top: 10px;
+  opacity: 1;
+}
+
+.navbar {
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  color: white;
+}
+
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: 'Cutive Mono', monospace;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 0px solid transparent;
+  -webkit-box-shadow: inset 0 0px 0 rgba(255, 255, 255, .1);
+          box-shadow: inset 0 0px 0 rgba(255, 255, 255, .1);
+
+}
+
+.navbar-brand img, .navbar-brand div{
+    height : 30px;
+    width: auto;
+    line-height: 30px;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.navbar-brand li > a{
+    font-family: 'Raleway',sans-serif;
+    font-weight: lighter;
+    background-color: red;
+}
+
+.navbar .icon-bar{
+    background: white;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+.navbar-toggle:focus {
+  outline: 0;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.navbar-dbleu, .navbar-dbleu:focus, .navbar-dbleu:hover {
+  border-color: #6969A3;
+}
+
+.logo_dim img{
+  height: 40px;
+}
+
+.comments{
+  color: white;
+  background-color: #8080BE;
+  padding: 10px 0px 10px 0px;
+  text-align:center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width : 70px;
+  height: 70px;
+  font-size: 32px;
+  border: 1px solid #CDD0D2;
+  box-shadow: 1px 4px 6px rgba(125,125,125,0.7);
+}
+
+.comments a{
+  color: white;
+}
+
+.comments a:hover{
+  opacity: 0.5;
+}
+
+.simple{
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.simple button{
+  padding: 15px 50px 15px 50px;
+  background-color: #FEFEFE;
+  color: #8380C8;
+  font-family: 'Raleway',sans-serif;
+  font-size: 18px,;
+  letter-spacing: 3px;
+}
+
+.quick{
+  padding: 50px;
+}
+
+.quick img{
+  height: 60px;
+  width: 60px;
+}
+
+.prices{
+  border-top: 1px solid #BDBDBD;
+  background-color: white;
+  padding: 50px;
+}
+
+.prices_height{
+  height: auto;
+  padding: 50px;
+}
+
+.prices .price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-top: 15px;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.price span{
+    font-weight: lighter;
+}
+
+.price div{
+    height: inherit;
+}
+
+.price div span{
+    display: block;
+}
+
+.quick, .prices, .card{
+  color: #BDBDBD;
+}
+
+.card{
+  background-color: #4C535C;
+  padding: 20px;
+  font-size: 28px;
+}
+
+.integrate , .integrate_inverse{
+  padding : 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.integrate_inverse{
+    flex-direction: row-reverse;
+}
+
+.integrate_img img{
+    margin: auto;
+    width: 70%;
+    border-radius: 15px;
+    background-color: white;
+    transform: translateY(20%);
+}
+
+.integrate_text {
+  text-align: left;
+  font-family: 'Tahoma',sans-serif;
+  font-size: 15px;
+  transform: translateY(1%);
+  padding-left: 100px;
+  padding-right: 120px;
+}
+
+.integrate_text h3{
+    font-size: 34px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.integrate_text p{
+    font-size: 14px;
+    color: #AAA;
+}
+
+.ready{
+  font-size: 24px;
+  color: #BDBDBD;
+  height: auto;
+  padding: 60px;
+  border-top: 1px solid #DDDDDD;
+  background-color: #FCFCFC;
+}
+
+.foooter{
+  background-color: #242629;
+  height: auto;
+  padding-bottom: 50px;
+
+}
+
+.foooter ul, .foooter li, .foooter h3{
+    font-family: 'Tahoma', sans-serif;
+    list-style-type: none;
+    text-align: left;
+    line-height: 30px;
+    font-weight: lighter;
+    width: auto;
+}
+
+.foooter h3{
+  color: #777768;
+}
+
+.footer a{
+  color: grey;
+}
+
+.foooter a:hover{
+  color: white;
+  font-weight: bold;
+}
+
+.foooter i:hover{
+  font-weight: bold;
+}
+
+.legal{
+  background-color: #242629;
+  height: auto;
+
+}
+
+.legal p{
+  color: #789599;
+  font-weight: lighter;
+  font-size: 10px;
+  line-height: 15px;
+  padding-bottom: 25px;
+}
+
+@media screen and (max-width:744px) and (min-width: 200px) {
+  .body_bg_img{
+    background: url("../img/payments-banner-graphic.png") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .simple {
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 70px;
+    text-align: justify;
+  }
+  .simple button{
+    padding: 10px 25px 10px 25px;
+    background-color: #FEFEFE;
+    color: #8380C8;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px,;
+    letter-spacing: 1px;
+  }
+  .div_gd_border {
+    border-left: 0px solid #BDBDBD;
+    border-right: 0px solid #BDBDBD;
+  }
+  .comments {
+    opacity: 0.3;
+  }
+  .comments:hover{
+    opacity: 0.5;
+    color: red !important;
+  }
+  .integrate_text {
+    text-align: left;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 15px;
+    transform: translateX(10%);
+    transform: translateY(1%);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+  }
+  .legal p{
+    color: #789599;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 15px;
+    padding-bottom: 25px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 1044px) and (min-width: 744px) {
+    .body_bg_img{
+    background: url("../img/payments-banner-graphic.png") no-repeat center center fixed;
+    background-size: cover;
+  }
+    .simple{
+      height: auto;
+      padding-top: 5px;
+      padding-bottom: 70px;
+      text-align: justify;
+    }
+    .div_gd_border{
+     border-left: 0px solid #BDBDBD;
+     border-right: 0px solid #BDBDBD;
+    }
+    .integrate_text {
+      text-align: left;
+      font-family: 'Tahoma',sans-serif;
+      font-size: 15px;
+      transform: translateX(5%);
+      transform: translateY(1%);
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 25px;
+    }
+    .legal p{
+      color: #789599;
+      font-weight: lighter;
+      font-size: 14px;
+      line-height: 15px;
+      padding-bottom: 25px;
+      text-align: justify;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .div_gd_border{
+     border-left: 1px solid #BDBDBD;
+     border-right: 1px solid #BDBDBD;
+    }
+}
