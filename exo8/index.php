@@ -37,6 +37,8 @@
 
           <?php include_once("./include/simple.php") ?>
 
+          <?php include_once("./include/card.php") ?>
+
           <?php include_once("./include/integrate.php") ?>
 
           <?php include_once("./include/ready.php") ?>
