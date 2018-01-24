@@ -21,16 +21,14 @@ Ce formulaire appelle une page qui affichera « Bonjour monsieur Truc » ou « B
     			<option value="Madame">Femme
     		</select>
     </div>
-    <input type="submit">
+    <input type="submit" name="send">
 </form>
 
 <?php
-if (!empty($_POST['nom']))
-{
-        echo "Bonjour, ".$_POST['sexe']." ".$_POST['nom'];
-        unset($_POST['sexe']);
-        unset($_POST['nom']);
-}
+    if (!empty($_POST['nom']))
+      {
+              echo "Bonjour, ".$_POST['sexe']." ".$_POST['nom'];
+      }
 ?>
 
 </body>
