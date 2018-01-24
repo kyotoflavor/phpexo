@@ -29,21 +29,21 @@
            <a href="#"><i class="fa fa-comments" aria-hidden="true"></i></a>
          </div>
 
-         <?php include_once("./include/navbar.php") ?>
+         <?php include("./include/navbar.php") ?>
 
-         <?php include_once("./include/header.php") ?>
+         <?php include("./include/header.php") ?>
 
-          <?php include_once("./include/quick.php") ?>
+          <?php include("./include/quick.php") ?>
 
-          <?php include_once("./include/simple.php") ?>
+          <?php include("./include/simple.php") ?>
 
-          <?php include_once("./include/card.php") ?>
+          <?php include("./include/card.php") ?>
 
-          <?php include_once("./include/integrate.php") ?>
+          <?php include("./include/integrate.php") ?>
 
-          <?php include_once("./include/ready.php") ?>
+          <?php include("./include/ready.php") ?>
 
-          <?php include_once("./include/footer.php") ?>
+          <?php include("./include/footer.php") ?>
 
 
           <!--script import-->
