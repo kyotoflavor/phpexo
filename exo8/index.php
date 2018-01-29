@@ -1,3 +1,6 @@
+<?php
+session_start();
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -29,21 +32,21 @@
            <a href="#"><i class="fa fa-comments" aria-hidden="true"></i></a>
          </div>
 
-         <?php include("./include/navbar.php") ?>
+              <?php include("navbar.php") ?>
 
-         <?php include("./include/header.php") ?>
+              <?php include("header.php") ?>
 
-          <?php include("./include/quick.php") ?>
+              <?php include("quick.php") ?>
 
-          <?php include("./include/simple.php") ?>
+              <?php include("simple.php") ?>
 
-          <?php include("./include/card.php") ?>
+              <?php include("card.php") ?>
 
-          <?php include("./include/integrate.php") ?>
+              <?php include("integrate.php") ?>
 
-          <?php include("./include/ready.php") ?>
+              <?php include("ready.php") ?>
 
-          <?php include("./include/footer.php") ?>
+              <?php include("footer.php") ?>
 
 
           <!--script import-->
